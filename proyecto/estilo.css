@@ -1,0 +1,101 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #00bfff;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: #4b0082;
+    color: white;
+    margin: 0;
+    padding: 8px;
+  }
+
+  .container {
+    background-color: #7dd7ff;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"], input[type="number"] {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    background-color: #0000cd;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #191970;
+  }
+
+  .section {
+    background-color: #6fd4ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  .concepto {
+    display: grid;
+    grid-template-columns: 30px 100px 1fr 120px 120px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .concepto input {
+    text-align: center;
+  }
+
+  .remove {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .agregar {
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .totales {
+    background-color: #9ae1ff;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .datos {
+    margin-bottom: 10px;
+  }
+
+  .centrado {
+    text-align: center;
+  }
+
+  .txt-small {
+    font-weight: bold;
+    font-size: 14px;
+  }
